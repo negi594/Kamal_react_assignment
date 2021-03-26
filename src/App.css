@@ -3,82 +3,62 @@ body {
     padding-bottom: 3rem;
     text-decoration: none;
     }
-
-  img{
+    img{
     max-width: 100%;
-  }
-  .bg-dark{
-      color: black !important;
-  }
-
-  .navbar .navbar-brand{
-      color: black !important;
-      font-weight: bold;
-   font-family: 'Caveat', cursive;
-   font-size:40px ;
-  }
-
-.banner {
+    }
+    .bg-dark{
+    color: black !important;
+    }
+    .navbar .navbar-brand{
+    color: black !important;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-size:40px ;
+    }
+    .banner {
     background-image: url(https://sciencenode.org/img_2019/2019-11-11/ryan-hutton-Jztmx9yqjBw-unsplash.jpg);
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
-}
-
-footer {
+    }
+    footer {
     padding: 50px !important;
-}
-
-.star2 {
-    width: 100@ !important;
+    }
+    .star2 {
+    width: 100px !important;
     overflow: hidden;
-    
     }
-    
-
-
     Form {
-        margin-top: 100px !important;
+    margin-top: 100px !important;
     }
-
     #formBasicmessage  {
-        padding: 50px ;
+    padding: 50px ;
     }
-
     .aboutlogo {
- padding-top: 8%;
- text-align: center;
- font-weight: bold;
- font-family: 'Caveat', cursive;
- font-size:80px ;
-   }
-
-   .abouttext {
-       padding-top: 5%;
-   }
-
-   .about{
-       background-color: brown;
-       padding-bottom: 50px;
-       background-image: url(https://s7d2.scene7.com/is/image/TWCNews/stars_png);
-   }
-
-@media only screen and (min-width: 768px) {
-
-
-Body{
+    padding-top: 8%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-size:80px ;
+    }
+    .abouttext {
+    padding-top: 5%;
+    }
+    .about{
+    background-color: brown;
+    padding-bottom: 50px;
+    background-image: url(https://s7d2.scene7.com/is/image/TWCNews/stars_png);
+    }
+    @media only screen and (min-width: 768px) {
+    Body{
     background-color: black !important;
     color: white !important;
-}
-
-.card-body{
+    }
+    .card-body{
     color: black;
-}
-
-#formBasicmessage  {
+    }
+    #formBasicmessage  {
     padding: 80px ;
-}
-
-
-}
+    }
+    }
