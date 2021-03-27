@@ -1,33 +1,61 @@
-import jupiter from '../images/jupiter.png';
-import Saturn from '../images/Saturn.jpg';
-import star from '../images/Sun.jpg';
+import crdimg1 from '../images/fit1.jpg';
+import crdimg2 from '../images/fit2.jpg';
+import crdimg3 from '../images/fit3.jpg';
+import crdimg4 from '../images/fit4.jpg';
+import crdimg5 from '../images/fit5.jpg';
+import crdimg6 from '../images/fit6.jpg';
 
-import { Jumbotron, Button, Card, CardDeck } from 'react-bootstrap';
+import { Carousel, Card, CardDeck } from 'react-bootstrap';
 import '../App.css';
 export default function Home() {
    return (
       <div className="App">
-         <main className="App-main">
 
+   <main className="maincontent">
+   <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={crdimg1} className="crdimg" alt="pimg"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={crdimg2} className="crdimg" alt="pimg"
+      alt="Second slide"
+    />
 
-            <Jumbotron className="banner">
-               <div className="container">
-                  <h1>Hello, world!</h1>
-                  <p>
-                     This is a simple hero unit, a simple jumbotron-style component for calling
-                     extra attention to featured content or information.
-                  </p>
-                  <p>
-                     <Button variant="light">Learn more</Button>
-                  </p>
-               </div>
-            </Jumbotron>
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={crdimg3} className="crdimg" alt="pimg"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+         
 
 
             <div className="container">
                <CardDeck >
                   <Card>
-                     <Card.Img variant="top" src={jupiter} className="App-logo" alt="logo" />
+                     <Card.Img variant="top" src={crdimg4} className="card-item1" alt="crdimg1" />
                      <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
@@ -38,7 +66,7 @@ export default function Home() {
 
                   </Card>
                   <Card>
-                     <Card.Img variant="top" src={Saturn} className="App-deck" alt="deck" />
+                     <Card.Img variant="top" src={crdimg5} className="card-item2" alt="crdimg2" />
                      <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
@@ -49,7 +77,7 @@ export default function Home() {
 
                   </Card>
                   <Card>
-                     <Card.Img variant="top" src={star} className="App-star" alt="star" />
+                     <Card.Img variant="top" src={crdimg6} className="card-item3" alt="crdimg3" />
                      <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>

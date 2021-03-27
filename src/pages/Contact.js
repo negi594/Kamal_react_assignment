@@ -1,11 +1,11 @@
-import logo from '../images/logo.svg';
+
 import '../App.css';
 import { Form, Button } from 'react-bootstrap';
 export default function Contact() {
    return (
-      <div className="App container">
+      <div className="container">
          <Form>
-            <h1 className="heading1"> Please contact </h1>
+            <h1 className="heading"> Please contact </h1>
             <Form.Group controlId="formBasicEmail">
                <Form.Label>Email address</Form.Label>
                <Form.Control type="email" placeholder="Enter email" />
@@ -23,8 +23,8 @@ export default function Contact() {
             </Form.Group>
             <Button variant="primary" type="submit">
                Submit
-  </Button>
+            </Button>
          </Form>
-      </div>
+   </div>
    );
 }
